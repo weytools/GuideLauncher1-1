@@ -1,5 +1,9 @@
 # GuideLauncher1-1
-Professional project using M-V-VM architecture, and a WPF GUI with data binding.
+Professional project showing:
+* M-V-VM architecture 
+* WPF GUI with handcrafted XAML 
+* Live data binding 
+* OOP with abstract classes 
 
 ![screenshot](screenshot.png "Screenshot")
 
