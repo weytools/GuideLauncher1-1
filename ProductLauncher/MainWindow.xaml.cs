@@ -56,7 +56,7 @@ namespace ProductLauncher
             else
                 guidePath = ((ProductLauncher.Data.Product)((System.Windows.FrameworkElement)e.Source).DataContext).SecondGuide;
 
-            // LAUNCH THAT BITCH
+            // LAUNCH IT
             System.Diagnostics.Process.Start(guidePath);
 
 
