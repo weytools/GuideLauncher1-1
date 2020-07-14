@@ -14,7 +14,16 @@ This professional project exemplifies:
 
 ![screenshot](screenshot.png "Screenshot")
 
-### Notes
+### Code Structure
+* The main **View Model** is a [class called GuideScreen](ProductLauncher/VM/GuideScreen.cs) 
+* All **View** items are bound to a class that is changed by the VM. For example:
+  * The search bar is a [FormInput class](ProductLauncher/Data/FormInput.cs)
+  * Each list item is a [Product class](ProductLauncher/Data/Product.cs)
+* **Model** logic is called upon the above classes, or sometimes from the [static class ProductGuideLogic](ProductLauncher/Logic/ProductGuideLogic.cs)  
+
+
+
+#### Notes
 This project has been uploaded to serve as an example of **code structure**, it is *not meant to be executed*.  
 Interpreted/compiled files and certain libraries have been removed for clutter.  
 Addresses and names have been changed for security.  
